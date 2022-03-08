@@ -1,0 +1,17 @@
+unittest
+
+1.三种启动方式
+ 01 unittest.main()  直接启动
+ 02 通过unittest.TextTestRunner()
+     1） 先建立unittest.TestSuite()套件的对象 ，然后addTest 加载用例    在启动
+     2） 先unittest.defaultTestLoader.discover 加载路径所以符合模板的文件 ，然后启动
+
+2.条件准备  setUP,tearDown,setUpClass,tearDownClass
+
+3.skip
+
+
+4. 断言
+
+
+
